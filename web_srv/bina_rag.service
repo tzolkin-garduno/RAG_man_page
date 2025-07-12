@@ -1,0 +1,8 @@
+[Unit]
+Description=Bina RAG service
+
+[Service]
+ExecStart=/home/gwolf/start_rag.sh
+
+[Install]
+WantedBy=multi-user.target

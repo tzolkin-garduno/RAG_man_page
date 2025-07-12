@@ -1,0 +1,7 @@
+table { border: solid 1px #ccc; }
+
+tr.metadata { font-size: 80%; color: #888; }
+
+tr.dist-long { background-color: #f88; }
+tr.dist-medium { background-color: #ff8; }
+tr.dist-short { background-color: #8f8; }

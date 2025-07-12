@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>A retrieval-augmented-generation pipeline to help users query system-provided documentation</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" type="text/css" media="all" href="/debhome.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/rag.css">
+    <link rel="Index" href="/">
+  </head>
+  <body lang="en" dir="ltr">
+    <div id="header">
+      <div id="upperheader">
+        <div id="logo">
+          <a href="https://www.debian.org" title="Debian Homepage">
+            <img src="/openlogo-50.png" alt="Debian logo" width="50" height="61">
+          </a>
+        </div>
+      </div>
+      <div id="navbar">
+        <ul>
+	  <li><a href="/">New query</a></li>
+	  <li><a href="https://github.com/tzolkin-garduno/RAG_man_page">Source code</a></li>
+	</ul>
+	</div>
+    </div> <!-- end header -->
+    <div id="content">
+      <h1 id="locationline">A retrieval-augmented-generation pipeline</h1>
+      <h2>To help users query system-provided documentation</h2>
+
+      <%= yield %>
+
+    </div> <!-- end content -->
+    <div id="footer">
+      
+      <p>This site is not an official Debian project. While the maintainer (Gunnar Wolf) is a 
+        <a href="https://wiki.debian.org/DebianDeveloper">Debian Developer</a>, 
+        content herein provided should be considered unofficial.
+      </p>
+      <!-- <p>Source code:   -->
+      <!--   <a href="https://salsa.debian.org/raspi-team/web-raspi-img/">this website</a> | -->
+      <!--   <a href="https://salsa.debian.org/raspi-team/image-specs">tool that generates the images</a> | -->
+      <!--   <a href="https://salsa.debian.org/debian/raspi-firmware/">raspi firmware</a> -->
+      <!-- </p> -->
+    </div> <!-- end footer -->
+  </body>
+</html>
