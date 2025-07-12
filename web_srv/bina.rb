@@ -50,6 +50,7 @@ end
 #   end
 # end
 
+get('/published_paper.pdf') { send_file './static/openlogo-50.png' }
 get('/openlogo-50.png') { send_file './static/openlogo-50.png' }
 get('/favicon.ico')     { send_file './static/favicon.ico' }
 get('/debhome.css')     { send_file './static/debhome.css' }
